@@ -17,7 +17,7 @@ const Year = ({ companyName, year }: YearProps) => {
 
   return (
     <div className=''>
-      <h2 className='uppercase bg-red-400'>{year}</h2>
+      <h2 className='uppercase'>{year}</h2>
       {files &&
         files.map((file: string) => (
           <Month
