@@ -9,6 +9,7 @@ type AdsItemProps = {
   month: string;
   adName: string;
   fileName: string;
+  isPreviewLink?: boolean;
 };
 
 const AdsItem = ({
@@ -17,26 +18,31 @@ const AdsItem = ({
   month,
   adName,
   fileName,
+  isPreviewLink,
 }: AdsItemProps) => {
-  const [showAd, setShowAd] = useState(false);
+  const [showAd, setShowAd] = useState(isPreviewLink ? true : false);
 
   const size = fileName.split('x');
 
   const src = `/ads/${companyName}/${year}/${month}/${adName}/${fileName}/index.html`;
 
   return (
-    <div className='ml-6'>
+    <div className={!isPreviewLink ? 'ml-6' : 'ml-0'}>
       <div className='flex items-center space-x-3'>
         <div>{fileName}</div>
-        <div
-          className='cursor-pointer underline'
-          onClick={() => setShowAd(!showAd)}
-        >
-          {showAd ? 'Hide ad' : 'Show ad'}
-        </div>
-        <a href={src} target='_blank' className='underline'>
-          Open ad
-        </a>
+        {!isPreviewLink && (
+          <>
+            <div
+              className='cursor-pointer underline'
+              onClick={() => setShowAd(!showAd)}
+            >
+              {showAd ? 'Hide ad' : 'Show ad'}
+            </div>
+            <a href={src} target='_blank' className='underline'>
+              Open ad
+            </a>
+          </>
+        )}
       </div>
       {showAd && (
         <div className='my-3'>

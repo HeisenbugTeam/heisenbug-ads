@@ -1,6 +1,8 @@
 import { readdirSync } from 'fs';
 import { join } from 'path';
 import AdsItem from './AdsItem';
+import { getAdName } from '@/lib/helper/getAdName';
+import Link from 'next/link';
 
 type AdsProps = {
   companyName: string;
@@ -19,7 +21,18 @@ const AdsContainer = ({ companyName, year, month, adName }: AdsProps) => {
 
   return (
     <div className='ml-6'>
-      <h2>{adName}</h2>
+      <div className='flex space-x-1'>
+        <h2 className='first-letter:capitalize font-bold'>
+          {getAdName(adName)}
+        </h2>
+        <Link
+          className='underline italic cursor-pointer'
+          target='_blank'
+          href={'ads/' + companyName + '/' + year + '/' + month + '/' + adName}
+        >
+          (Open preview link of tihs ad)
+        </Link>
+      </div>
       {files &&
         files.map((file: string) => (
           <AdsItem
