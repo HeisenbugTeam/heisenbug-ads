@@ -35,7 +35,7 @@ body{
   height: 100%;
   top: 0;
   left: 0;
-  background-image: linear-gradient(0deg, #021e40e4, #021e409e, #021e4037, #021e4000, #021e40e4);
+  background-image: linear-gradient(0deg, #021e40ca, #021e40ca, #021e4000, #021e4000, #021e40ca);
   z-index: 1;
 }
 
@@ -69,7 +69,8 @@ body{
 
 .image-container video{
   position: absolute;
-  width: 980px;
+  height: 250px;
+  margin-left: -240px;
   top: 0;
   left: 0;
 }
