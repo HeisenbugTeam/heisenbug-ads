@@ -35,14 +35,14 @@ body{
   height: 100%;
   top: 0;
   left: 0;
-  background-image: linear-gradient(0deg, #021e40e4, #021e409e, #021e4037, #021e4000, #021e4000);
+  background-image: linear-gradient(90deg, #021e40e4, #021e40c9, #021e4080, #021e4000, #021e4000);
   z-index: 1;
 }
 
 .logo{
   position:absolute;
   left: 36px;
-  bottom: 28px;
+  top: 28px;
   max-width: 220px;
   z-index: 1;
 }
@@ -50,13 +50,13 @@ body{
 .text-container .text{
   position: absolute;
   max-width: 800px;
-  right: 36px;
-  top: 208px;
+  left: 36px;
+  top: 110px;
   z-index: 3;
 }
 
 .text-container .text h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 400;
   margin-bottom: 0px;
   margin-top: 10px;
@@ -76,6 +76,25 @@ body{
 
 video {
   position: absolute;
+}
+
+.cta{
+  position: absolute;
+  left: 36px;
+  bottom: 36px;
+  background:#d97426;
+  border:0px;
+  color:#fff;
+  border-radius:30px;
+  font-size: 18px;
+  padding:0.5em 0.9em;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  font-weight: 300;
+  z-index: 999;
+}
+.cta:hover{
+  opacity: .7;
 }
 
 #hover {
