@@ -2,7 +2,7 @@
   position: absolute;
 }
 
-html,body{
+html, body{
   overflow: hidden;
   margin:0px;
 }
@@ -35,7 +35,7 @@ body{
   height: 100%;
   top: 0;
   left: 0;
-  background-image: linear-gradient(90deg, #021e40e4, #021e40c9, #021e4080, #021e4000, #021e4000);
+  background-image: linear-gradient(90deg, #021e40, #021e40, #021e40c1, #021e4025, #021e4025);
   z-index: 1;
 }
 
@@ -71,7 +71,7 @@ body{
   position: absolute;
   width: 980px;
   top: 0;
-  left: 0;
+  left: 200px;
 }
 
 video {
