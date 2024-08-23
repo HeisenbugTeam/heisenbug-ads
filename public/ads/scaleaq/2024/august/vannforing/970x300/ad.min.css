@@ -18,6 +18,10 @@ body {
   line-height: 1;
 }
 
+button {
+  font-family: 'proxima-nova', arial, sans-serif;
+}
+
 p {
   margin: 0px !important;
   font-weight: 600;

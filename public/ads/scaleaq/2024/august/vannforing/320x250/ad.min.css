@@ -104,6 +104,10 @@ p {
   margin-top: 0px;
 }
 
+button {
+  font-family: 'proxima-nova', arial, sans-serif;
+}
+
 video {
   height: 360px;
   position: absolute;
