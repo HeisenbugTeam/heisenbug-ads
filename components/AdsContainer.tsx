@@ -17,6 +17,9 @@ const AdsContainer = ({ companyName, year, month, adName }: AdsProps) => {
     'public',
     'ads/' + companyName + '/' + year + '/' + month + '/' + adName
   );
+  if (directoryPath.includes('DS_Store')) {
+    return null;
+  }
   const files = readdirSync(directoryPath);
 
   return (

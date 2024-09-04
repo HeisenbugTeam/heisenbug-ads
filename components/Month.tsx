@@ -14,8 +14,10 @@ const Month = ({ companyName, year, month }: MonthProps) => {
     'public',
     'ads/' + companyName + '/' + year + '/' + month
   );
+  if (directoryPath.includes('DS_Store')) {
+    return null;
+  }
   const files = readdirSync(directoryPath);
-  console.log(files);
 
   return (
     <div className='ml-6'>

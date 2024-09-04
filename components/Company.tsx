@@ -8,6 +8,9 @@ type CompanyProps = {
 
 const Company = ({ companyName }: CompanyProps) => {
   const directoryPath = join(process.cwd(), 'public', 'ads/' + companyName);
+  if (directoryPath.includes('DS_Store')) {
+    return null;
+  }
   const files = readdirSync(directoryPath);
 
   return (

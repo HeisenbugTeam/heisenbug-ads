@@ -13,6 +13,9 @@ const Year = ({ companyName, year }: YearProps) => {
     'public',
     'ads/' + companyName + '/' + year
   );
+  if (directoryPath.includes('DS_Store')) {
+    return null;
+  }
   const files = readdirSync(directoryPath);
 
   return (
