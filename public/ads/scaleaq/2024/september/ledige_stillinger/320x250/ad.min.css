@@ -1,0 +1,195 @@
+.clickTagLink {
+  position: absolute;
+}
+
+html,
+body {
+  overflow: hidden;
+  margin: 0px;
+}
+
+body {
+  width: 320px;
+  height: 250px;
+  background: #fff;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'proxima-nova', 'Arial', sans-serif;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  font-family: 'proxima-nova', arial, sans-serif;
+}
+
+p {
+  margin: 0px !important;
+  font-weight: normal;
+}
+
+.banner {
+  width: 320px;
+  height: 250px;
+  overflow: hidden;
+  background-image: linear-gradient(#084875, #021e40);
+}
+
+.banner:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#021e4000, #021e4090);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.banner:after {
+  content: '';
+  width: 40%;
+  height: 150%;
+  background: linear-gradient(#03417f, #021e40, #021e40);
+  position: absolute;
+  left: -82px;
+  bottom: -100px;
+  transform: rotate(12deg);
+  z-index: 1;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  max-width: 40px;
+  z-index: 2;
+}
+
+.scale-orange {
+  color: #ff6422;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+#text2,
+#text3,
+#text4 {
+  opacity: 0;
+}
+
+.text-container .text {
+  color: #fff;
+  position: absolute;
+  max-width: 600px;
+  left: 64px;
+  bottom: 25%;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.text-container .text h1 {
+  font-size: 1.9rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.text-container .text h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.frist {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.image-container img {
+  position: absolute;
+  width: 320px;
+}
+
+.image-1,
+.image-2,
+.image-3,
+.image-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 320px;
+}
+
+
+.image-2,
+.image-3,
+.image-4 {
+  opacity: 0;
+}
+
+.cta {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  background: #ff6422;
+  border: 0px;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 0.2em 0.8em;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  font-weight: 600;
+  z-index: 6;
+}
+
+.cta:hover {
+  opacity: .7;
+}
+
+.crop {
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hover{
+  position: absolute;
+  background: #021E40;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index: 4;
+  opacity: 0;
+  transition: .3s opacity ease;
+  background-image: linear-gradient(#084875, #021E40);
+}
+
+.hover img{
+  width:80%;
+  position: absolute;
+  left:0;
+  right:0;
+  top:16px;
+  bottom:20px;
+  margin:auto;
+  opacity: 0;
+  transition: 1.5s opacity ease;
+}
+
+.banner:hover .hover {
+  opacity: 1;
+}
+
+.banner:hover .hover img{
+  opacity: 1;
+}
