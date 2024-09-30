@@ -57,6 +57,7 @@ p {
 
 .scale-orange {
   color: #ff6422;
+  font-size: 24px;
 }
 
 #text2,
@@ -74,7 +75,7 @@ p {
 }
 
 .text-container .text h1 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   margin-bottom: 0px;
   font-weight: 400;
   margin-top: 8px;
@@ -82,7 +83,7 @@ p {
 }
 
 .text-container .text h2 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   line-height: 1.05;
   margin-bottom: 0px;
   margin-top: 8px;
