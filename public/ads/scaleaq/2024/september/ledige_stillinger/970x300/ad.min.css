@@ -90,11 +90,11 @@ p {
 }
 
 .frist {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 500;
   color: #fff;
   position: absolute;
-  top: 48px;
+  top: 32px;
   left: 48px;
 }
 
