@@ -71,14 +71,6 @@ p, h1, h2, h3 {
   z-index: 1;
 }
 
-.link_jaeger {
-  position: absolute;
-  font-size: 14px;
-  bottom: 10px;
-  right: 24px;
-  color: #202020;
-}
-
 .model-container {
   position: absolute;
   max-width: 800px;

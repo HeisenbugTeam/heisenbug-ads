@@ -71,13 +71,6 @@ p, h1, h2, h3 {
   z-index: 1;
 }
 
-.link_jaeger {
-  position: absolute;
-  bottom: 16px;
-  right: 24px;
-  color: #202020;
-}
-
 .model-container {
   position: absolute;
   max-width: 800px;
@@ -154,7 +147,6 @@ p span {
   z-index: 2;
 }
 
-
 #hover {
   display: flex;
   align-items: center;
@@ -204,7 +196,6 @@ p span {
   cursor: pointer;
   width: fit-content;
   transition: all 0.3s ease;
-
 }
 
 .cta_hover:hover {
