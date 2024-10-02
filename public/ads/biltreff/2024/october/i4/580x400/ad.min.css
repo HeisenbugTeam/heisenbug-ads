@@ -114,14 +114,14 @@ p span {
 .text-container .text1 {
   position: absolute;
   left: 16px;
-  bottom: 96px;
+  bottom: 104px;
   z-index: 2;
 }
 
 .text-container .text2 {
   position: absolute;
   left: 220px;
-  bottom: 96px;
+  bottom: 104px;
   z-index: 2;
 }
 
@@ -130,7 +130,7 @@ p span {
   left: 16px;
   bottom: 48px;
   max-width: 544px;
-  font-size: 10px;
+  font-size: 12px;
   z-index: 2;
 }
 

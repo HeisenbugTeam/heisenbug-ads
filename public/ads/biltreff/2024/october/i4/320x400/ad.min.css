@@ -133,8 +133,8 @@ p span {
   position: absolute;
   left: 8px;
   bottom: 48px;
-  max-width: 320px;
-  font-size: 8px;
+  max-width: 318px;
+  font-size: 8.5px;
   z-index: 2;
 }
 
