@@ -62,7 +62,7 @@ p {
 
 .more {
   position: absolute;
-  top: 12px;
+  top: 8px;
   right: 64px;
   scale: 0.7;
 }
@@ -107,7 +107,7 @@ p {
 
 /* PILLS - START */
 
-.pill, .text, .more {
+.pill, .text, .more, .cta_img {
   opacity: 0;
 }
 
@@ -127,25 +127,18 @@ p {
   opacity: 1;
 } */
 
-.cta {
-  padding: 6px 12px;
-  background: #fff;
-  color: #000 !important;
+.cta_img {
   position: absolute;
-  bottom: 11%;
+  bottom: 14%;
   right: 110px;
-  border-radius: 4px;
-  transition: .5s scale ease;
-  opacity: 0;
-  z-index: 4;
+  padding: 12px 12px;
+  border-radius: 6px;
+  background: #DBE8FF;
+  transition: all 0.25s ease;
+  scale: 1;
 }
 
-.cta p {
-  font-weight: 550;
-  font-size: 12px;
-}
-
-.cta:hover {
+.cta_img:hover {
   scale: 1.1;
   background: #B9F7B3;
 }

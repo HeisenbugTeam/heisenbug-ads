@@ -129,23 +129,18 @@ h1 {
   opacity: 1;
 }
 
-.cta {
-  padding: 12px 24px;
-  background: #fff;
-  color: #000 !important;
+.cta_img {
   position: absolute;
   bottom: 16%;
-  left: 210px;
+  left: 220px;
+  padding: 12px 12px;
   border-radius: 6px;
-  transition: .5s scale ease;
+  background: #DBE8FF;
+  transition: all 0.25s ease;
+  scale: 1.2;
 }
 
-.cta p {
-  font-weight: 550;
-  font-size: 14px;
-}
-
-.cta:hover {
-  scale: 1.1;
+.cta_img:hover {
+  scale: 1.4;
   background: #B9F7B3;
 }
