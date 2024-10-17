@@ -1,0 +1,151 @@
+.clickTagLink{
+  position: absolute;
+}
+
+html, body{
+  overflow: hidden;
+  margin: 0px !important;
+}
+
+body{
+  width: 980px;
+  height: 120px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.banner{
+  width: 980px;
+  height: 120px;
+  background-color:#FD9BB7;
+}
+
+.crop{
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.image-container {
+  position: absolute;
+  top: 12px;
+  left: 240px;
+  border-radius: 6px;
+  max-width: 208px;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.image-container2 {
+  position: absolute;
+  top: 12px;
+  left: 460px;
+  border-radius: 6px;
+  max-width: 208px;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.logo {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+
+.more {
+  position: absolute;
+  top: 12px;
+  right: 64px;
+  scale: 0.7;
+}
+
+/* PILLS - START */
+
+.friends {
+  position: absolute;
+  top: 14px;
+  left: 150px;
+  transform: rotate(-8deg);
+  scale: .8;
+}
+
+.late {
+  position: absolute;
+  top: 12px;
+  right: 124px;
+  transform: rotate(-4deg);
+}
+
+.ten {
+  position: absolute;
+  top: 64px;
+  right: 210px;
+  transform: rotate(-6deg);
+}
+
+.upgrade {
+  position: absolute;
+  top: 64px;
+  right: 16px;
+  transform: rotate(6deg);
+}
+
+.early {
+  position: absolute;
+  top: 28px;
+  right: 480px;
+  transform: rotate(-14deg);
+}
+
+/* PILLS - START */
+
+.pill, .text, .more {
+  opacity: 0;
+}
+
+.hover{
+  position: absolute;
+  background: transparent;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index: 2;
+/*  opacity: 0; */
+  transition: 1s opacity ease;
+}
+
+/* .banner:hover .hover {
+  opacity: 1;
+} */
+
+.cta {
+  padding: 6px 12px;
+  background: #fff;
+  color: #000 !important;
+  position: absolute;
+  bottom: 11%;
+  right: 110px;
+  border-radius: 4px;
+  transition: .5s scale ease;
+  opacity: 0;
+  z-index: 4;
+}
+
+.cta p {
+  font-weight: 550;
+  font-size: 12px;
+}
+
+.cta:hover {
+  scale: 1.1;
+  background: #B9F7B3;
+}

@@ -1,0 +1,159 @@
+.clickTagLink{
+  position: absolute;
+}
+
+html, body{
+  overflow: hidden;
+  margin: 0px !important;
+}
+
+body{
+  width: 300px;
+  height: 600px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.banner{
+  width: 300px;
+  height: 600px;
+  background-color:#48172C;
+}
+
+.crop{
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.image-container {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: 6px;
+  max-width: 276px;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.logo {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+}
+
+.logo img {
+  max-width: 274px;
+}
+
+h1 {
+  position: absolute;
+  top: 33px;
+  left: 35px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 38px;
+  font-family: "Spectral", serif;
+  font-weight: 500;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.more {
+  position: absolute;
+  top: 76px;
+  left: 50px;
+}
+
+/* PILLS - START */
+
+.friends {
+  position: absolute;
+  bottom: 60px;
+  right: 14px;
+  transform: rotate(-7deg);
+  scale: 1.2;
+}
+
+.late {
+  position: absolute;
+  top: 332px;
+  left: 188px;
+  transform: rotate(4deg);
+  scale: 0.8;
+}
+
+.ten {
+  position: absolute;
+  top: 360px;
+  left: 0px;
+  transform: rotate(-6deg);
+  scale: 0.8;
+}
+
+.upgrade {
+  position: absolute;
+  top: 400px;
+  left: 138px;
+  transform: rotate(16deg);
+  scale: 0.8;
+}
+
+.early {
+  position: absolute;
+  top: 470px;
+  left: 0px;
+  transform: rotate(-24deg);
+  scale: 0.8;
+}
+
+/* PILLS - START */
+
+.pill, .text, .more {
+  opacity: 0;
+}
+
+.hover{
+  position: absolute;
+  background: transparent;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index: 2;
+  opacity: 0;
+  transition: .5s opacity ease;
+}
+
+.banner:hover .hover {
+  opacity: 1;
+}
+
+.cta {
+  padding: 6px 12px;
+  background: #fff;
+  color: #000 !important;
+  position: absolute;
+  bottom: 23%;
+  left: 88px;
+  border-radius: 6px;
+  transition: .5s scale ease;
+}
+
+.cta p {
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.cta:hover {
+  scale: 1.1;
+  background: #B9F7B3;
+}

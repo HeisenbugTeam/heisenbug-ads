@@ -1,0 +1,140 @@
+.clickTagLink{
+  position: absolute;
+}
+
+html, body{
+  overflow: hidden;
+  margin: 0px !important;
+}
+
+body{
+  width: 970px;
+  height: 250px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.banner{
+  width: 970px;
+  height: 250px;
+  background-color:#48172C;
+}
+
+.crop{
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.image-container {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: 6px;
+  max-width: 946px;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.logo {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+}
+
+.more {
+  position: absolute;
+  top: 72px;
+  right: 80px;
+}
+
+/* PILLS - START */
+
+.friends {
+  position: absolute;
+  top: 140px;
+  left: 160px;
+  transform: rotate(-8deg);
+  scale: 1;
+}
+
+.late {
+  position: absolute;
+  top: 10px;
+  right: 48px;
+  transform: rotate(-4deg);
+}
+
+.ten {
+  position: absolute;
+  top: 56px;
+  right: 190px;
+  transform: rotate(-6deg);
+}
+
+.upgrade {
+  position: absolute;
+  top: 118px;
+  right: 16px;
+  transform: rotate(14deg);
+}
+
+.early {
+  position: absolute;
+  top: 180px;
+  right: 180px;
+  transform: rotate(-16deg);
+}
+
+/* PILLS - START */
+
+.pill, .text, .more {
+  opacity: 0;
+}
+
+.hover{
+  position: absolute;
+  background: transparent;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  z-index: 2;
+/*  opacity: 0; */
+  transition: 1s opacity ease;
+}
+
+/* .banner:hover .hover {
+  opacity: 1;
+} */
+
+.cta {
+  padding: 12px 24px;
+  background: #fff;
+  color: #000 !important;
+  position: absolute;
+  bottom: 20%;
+  right: 110px;
+  border-radius: 6px;
+  transition: .5s scale ease;
+  opacity: 0;
+  z-index: 4;
+}
+
+.cta p {
+  font-weight: 550;
+  font-size: 14px;
+}
+
+.cta:hover {
+  scale: 1.1;
+  background: #B9F7B3;
+}
