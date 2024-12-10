@@ -52,9 +52,19 @@ p {
   animation: my_animation 10s linear infinite;
 }
 
+.banner:hover .text-1,
+.banner:hover .logo {
+  display: none;
+}
+
+.banner:hover #snow-container {
+  width: 100%;
+  overflow: visible;
+}
+
 #snow-container {
   overflow: hidden;
-  z-index: 9;
+  z-index: 20;
   position: absolute;
   width: 300px;
   height: 100%;
