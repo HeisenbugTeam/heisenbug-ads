@@ -84,7 +84,8 @@ p {
 }
 
 #text2 {
-  font-size: 30px;
+  font-size: 22px;
+  line-height: 1.1;
   opacity: 0;
 }
 
