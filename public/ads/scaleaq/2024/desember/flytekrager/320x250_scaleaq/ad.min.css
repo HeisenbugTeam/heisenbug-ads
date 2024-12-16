@@ -1,0 +1,176 @@
+.clickTagLink {
+  position: absolute;
+}
+
+html,
+body {
+  overflow: hidden;
+  margin: 0px;
+}
+
+body {
+  width: 320px;
+  height: 250px;
+  background: #fff;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'proxima-nova', 'Arial', sans-serif;
+  line-height: 1;
+}
+
+p {
+  margin: 0px !important;
+  font-weight: normal;
+}
+
+.banner {
+  width: 320px;
+  height: 250px;
+  background-image: linear-gradient(#084875, #021e40);
+}
+
+.banner:after {
+  content: '';
+  width: 40%;
+  height: 150%;
+  background: linear-gradient(#03417f, #021e40, #021e40);
+  position: absolute;
+  left: -82px;
+  bottom: -100px;
+  transform: rotate(12deg);
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  max-width: 40px;
+  z-index: 1;
+}
+
+#text2,
+#text3,
+#text4,
+#text5 {
+  opacity: 0;
+}
+
+/* #text1 {
+  opacity: 0;
+}
+#text5 {
+  opacity: 1;
+} */
+
+.text-container .text {
+  position: absolute;
+  max-width: 320px;
+  left: 80px;
+  top: 94px;
+  font-weight: 600;
+}
+#text1 {
+  margin-top: 30px;
+}
+
+.text-container .text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.text-container .text h2 {
+  margin-top: 5px;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+video {
+  height: 360px;
+  position: absolute;
+  top: -90px;
+  left: -100px;
+}
+
+.cta {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+  background: #ff6422;
+  border: 0px;
+  color: #021e40;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 0.4em 1em;
+  letter-spacing: 0.01em;
+  cursor: pointer;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.crop {
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hover {
+  position: absolute;
+  background: #021e40;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  opacity: 0;
+  transition: 0.3s opacity ease;
+  background-image: linear-gradient(#084875, #021e40);
+}
+
+.hover img {
+  width: 80%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  bottom: 20px;
+  margin: auto;
+  opacity: 0;
+  transition: 1.5s opacity ease;
+}
+
+.we-are {
+  padding-top: 100px;
+}
+
+.banner:hover .hover {
+  opacity: 1;
+}
+
+.banner:hover .hover img {
+  opacity: 1;
+}
+
+.text i span {
+  color: #6cbee6;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#text1 h1 span {
+  font-size: 18px;
+  position: relative;
+  top: -16px;
+  font-weight: 100;
+}
+
+.bluuue-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 320px;
+  height: 250px;
+  background: #021e4060;
+  opacity: 1;
+}
