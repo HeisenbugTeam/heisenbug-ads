@@ -1,0 +1,223 @@
+.clickTagLink{
+  position: absolute;
+}
+
+html,body{
+  overflow: hidden;
+  margin:0px;
+}
+
+body{
+  width: 320px;
+  height: 400px;
+  background: #fff;
+  color: #fff;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-smooth: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, h1, h2, h3 {
+  margin: 0 !important;
+}
+
+.crop{
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner{
+  width: 320px;
+  height: 400px;
+  background: #fff;
+}
+
+.banner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(90deg, #00000050, #00000000, #00000000);
+  z-index: 1;
+}
+
+.banner:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(0deg, #00000050, #00000000, #00000000);
+  z-index: 1;
+}
+
+.bmw_logo {
+  position:absolute;
+  right: 24px;
+  top: 24px;
+  max-width: 48px;
+  z-index: 1;
+}
+
+.logo{
+  position:absolute;
+  right: 4px;
+  bottom: 8px;
+  max-width: 140px;
+  z-index: 1;
+}
+
+.link_jaeger {
+  position: absolute;
+  font-size: 14px;
+  bottom: 10px;
+  right: 24px;
+  color: #202020;
+}
+
+.model-container {
+  position: absolute;
+  max-width: 800px;
+  left: 16px;
+  top: 16px;
+  z-index: 3;
+}
+
+.model-container h1 {
+  font-size: 96px;
+  line-height: .8;
+  font-weight: 500;
+}
+
+.model-container p{
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p span {
+  padding: 2px 4px;
+  background-color: #1C69D4;
+}
+
+.locations {
+  color: #202020;
+  position: absolute;
+  font-size: .8rem;
+  font-weight: 500;
+  bottom: 10px;
+  left: 8px;
+}
+
+.text-container .text1 {
+  position: absolute;
+  left: 8px;
+  bottom: 88px;
+  z-index: 2;
+}
+
+.text-container .text2 {
+  position: absolute;
+  left: 180px;
+  bottom: 88px;
+  z-index: 2;
+}
+
+.text-container .text3 {
+  position: absolute;
+  left: 8px;
+  bottom: 48px;
+  max-width: 320px;
+  font-size: 8px;
+  z-index: 2;
+}
+
+.image-container img{
+  position: absolute;
+  width: 320px;
+  top: 0;
+  left: 0px;
+}
+
+.cta{
+  position: absolute;
+  display: flex;
+  gap: 16px;
+  Left: 8px;
+  top: 120px;
+  background:#202020;
+  border-left: 8px solid #1C69D4;
+  padding: .3rem .7rem;
+  color:#fff;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+#hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #E8F0FB;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  transition: all 0.3s ease;
+}
+
+.banner:hover #hover {
+  opacity: 1;
+}
+
+#hover_logo{
+  margin-bottom: 2rem;
+  max-width: 280px;
+}
+
+#hover .inner-hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#hover .inner-hover .slogan {
+  color: #202020;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem !important;
+}
+
+.cta_hover {
+  display: flex;
+  gap: 16px;
+  background:#202020;
+  border-left: 8px solid #1C69D4;
+  padding: .3rem .7rem;
+  color:#fff !important;
+  font-size: 14px;
+  cursor: pointer;
+  width: fit-content;
+  transition: all 0.3s ease;
+
+}
+
+.cta_hover:hover {
+  background:#1C69D4;
+  border-left: 8px solid #1C69D4;
+}
