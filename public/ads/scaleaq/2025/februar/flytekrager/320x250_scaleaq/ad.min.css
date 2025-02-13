@@ -48,43 +48,27 @@ p {
   z-index: 1;
 }
 
-#text2,
-#text3,
-#text4,
-#text5 {
-  opacity: 1;
-}
-
-#text1 {
-  opacity: 0;
-}
-
 .text-container .text {
   position: absolute;
-  max-width: 320px;
-  left: 75px;
-  top: 44px;
-  font-weight: 600;
-}
-#text1 {
-  margin-top: 30px;
+  left: 80px;
+  top: 80px;
+  z-index: 1;
+  max-width: 200px;
 }
 
-.text-container .text h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0px;
-  margin-top: 10px;
-  font-weight: 400;
+.text .title {
+  color: #6cbee6;
+  font-size: 19px;
+  font-style: italic;
+}
+.text .content {
+  font-size: 22px;
 }
 
-#text2 {
-  top: 100px;
-}
-
-.text-container .text h2 {
-  margin-top: 5px;
-  font-size: 1.4rem;
-  font-weight: 400;
+#text1,
+#text2,
+#text3 {
+  opacity: 0;
 }
 
 video {
