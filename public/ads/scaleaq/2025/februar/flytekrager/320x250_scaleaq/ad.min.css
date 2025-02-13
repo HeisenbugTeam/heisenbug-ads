@@ -58,11 +58,15 @@ p {
 
 .text .title {
   color: #6cbee6;
-  font-size: 19px;
+  font-size: 16px;
   font-style: italic;
 }
 .text .content {
-  font-size: 22px;
+  font-size: 23px;
+}
+
+#text1 .content {
+  font-size: 40px;
 }
 
 #text1,
@@ -157,5 +161,5 @@ video {
   width: 320px;
   height: 250px;
   background: #021e4060;
-  opacity: 1;
+  opacity: 0;
 }
