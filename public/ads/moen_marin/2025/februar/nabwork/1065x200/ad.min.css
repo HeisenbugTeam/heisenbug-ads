@@ -9,8 +9,8 @@ body {
 }
 
 body {
-  width: 980px;
-  height: 300px;
+  width: 1065px;
+  height: 200px;
   background: #fff;
   color: #fff;
   font-size: 16px;
@@ -28,15 +28,15 @@ p {
 }
 
 .banner {
-  width: 980px;
-  height: 300px;
+  width: 1065px;
+  height: 200px;
   background: rgba(0, 45, 91);
 }
 
 .banner:after {
   content: '';
-  width: 55%;
-  height: 200%;
+  width: 65%;
+  height: 300%;
   /* background-image: url(assets/pattern.svg); */
   background-color: rgba(0, 45, 91);
   background-size: 400%;
@@ -44,7 +44,7 @@ p {
   background-position-x: 300px;
   position: absolute;
   left: -100px;
-  bottom: -150px;
+  bottom: -200px;
   transform: rotate(-25deg);
 }
 
@@ -93,9 +93,9 @@ p {
 .text-container {
   position: absolute;
   z-index: 3;
-  top: 80px;
+  top: 15px;
   left: 24px;
-  max-width: 300px;
+  max-width: 500px;
 }
 
 .text-container .title {
@@ -103,7 +103,7 @@ p {
 }
 
 .text-container h1 {
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 400;
   margin-bottom: 0px;
   margin-top: 10px;
@@ -148,9 +148,9 @@ p {
 
 .image-container img {
   position: absolute;
-  top: -80px;
+  top: -100px;
   right: 0;
-  height: 400px;
+  height: 340px;
   animation: zoom 14s ease-in-out infinite;
 }
 
