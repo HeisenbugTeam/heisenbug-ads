@@ -10,7 +10,7 @@ body {
 
 body {
   width: 1065px;
-  height: 200px;
+  height: 300px;
   background: #fff;
   color: #fff;
   font-size: 16px;
@@ -29,8 +29,9 @@ p {
 
 .banner {
   width: 1065px;
-  height: 200px;
+  height: 300px;
   background: rgba(0, 45, 91);
+  overflow: hidden;
 }
 
 .banner:after {
@@ -150,7 +151,7 @@ p {
   position: absolute;
   top: -100px;
   right: 0;
-  height: 340px;
+  height: 400px;
   animation: zoom 14s ease-in-out infinite;
 }
 
