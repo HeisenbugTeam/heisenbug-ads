@@ -45,7 +45,7 @@ p {
 }
 
 .logo {
-  position: fixed;
+  position: absolute;
   bottom: 12px;
   left: 12px;
 }
