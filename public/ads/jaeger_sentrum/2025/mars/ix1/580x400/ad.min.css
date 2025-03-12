@@ -141,8 +141,8 @@ p span {
 
 .text-container .text4 {
   position: absolute;
-  right: 24px;
-  bottom: 116px;
+  right: 32px;
+  bottom: 110px;
   max-width: 410px;
   font-size: 16px;
   z-index: 2;
@@ -150,8 +150,8 @@ p span {
 
 .blue_plus {
   position: absolute;
-  right: 204px;
-  bottom: 40px;
+  right: 192px;
+  bottom: 43px;
   z-index: 2;
 }
 
