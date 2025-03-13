@@ -131,28 +131,30 @@ p span {
 
 .text-container .text3 {
   position: absolute;
-  left: 540px;
+  left: 508px;
   bottom: 92px;
-  max-width: 410px;
+  max-width: 460px;
   font-size: 14px;
   z-index: 2;
 }
 
 .text-container .text4 {
   position: absolute;
-  right: 208px;
-  bottom: 177px;
+  display: flex;
+  align-items: center;
+  left: 0px;
+  bottom: 260px;
   max-width: 410px;
-  font-size: 20px;
+  font-size: 14px;
   z-index: 2;
+  padding: .5rem;
+  background: #1C69D4;
+  gap: 8px;
 }
 
-.blue_plus {
-  position: absolute;
-  right: 242px;
-  bottom: 58px;
-  z-index: 2;
-  scale: 1.2;
+.text4_inner {
+  display: flex;
+  flex-direction: column;
 }
 
 .image-container img{

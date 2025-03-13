@@ -119,14 +119,14 @@ p span {
 .text-container .text1 {
   position: absolute;
   left: 16px;
-  bottom: 88px;
+  bottom: 92px;
   z-index: 2;
 }
 
 .text-container .text2 {
   position: absolute;
   left: 220px;
-  bottom: 88px;
+  bottom: 92px;
   z-index: 2;
 }
 
@@ -141,18 +141,21 @@ p span {
 
 .text-container .text4 {
   position: absolute;
-  right: 32px;
-  bottom: 110px;
+  display: flex;
+  align-items: center;
+  left: 0px;
+  bottom: 176px;
   max-width: 410px;
-  font-size: 16px;
+  font-size: 14px;
   z-index: 2;
+  padding: .5rem;
+  background: #1C69D4;
+  gap: 8px;
 }
 
-.blue_plus {
-  position: absolute;
-  right: 192px;
-  bottom: 43px;
-  z-index: 2;
+.text4_inner {
+  display: flex;
+  flex-direction: column;
 }
 
 .image-container img{
